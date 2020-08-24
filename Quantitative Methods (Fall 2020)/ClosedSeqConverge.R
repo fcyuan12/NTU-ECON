@@ -3,7 +3,7 @@
 rm(list = ls())  
 
 ###  Delete all things in Console.
-# 1. Move cursor in consle
+# 1. Move cursor in console
 # 2. Control + L 
 
 ######
@@ -34,7 +34,7 @@ text(9, 13, c('S'), col = 'black', cex = 3)
 SC <- expression(paste(S^C))
 text(15, 15, labels = SC, col = 'black', cex = 3)
 
-# d(x_k, y) = 1/k; (14, 14) with r = 2
+# d(x_k, y) = 1/k; (14, 10) with r = 2
 draw.circle(14, 10, 2, border = 'red', lty = 2, lwd = 5)
 ballx1 <- seq(12, 14, 0.1); bally1 <- rep(10, length(ballx1))
 lines(ballx1, bally1 , lty = 1, col = 'red', lwd = 5)
